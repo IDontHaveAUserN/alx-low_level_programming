@@ -2,10 +2,9 @@
 #include <unistd.h>
 /**
 *
-* main - entry point
+* main - and that piece of art is useful" - Dora Korpar, 2015-10-19
 *
-* Return: Always 1 (success)
-*
+* Return: Always 0 (success)
 */
 int main(void)
 {

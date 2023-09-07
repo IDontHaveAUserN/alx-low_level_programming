@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <unistd.h>
 /**
 *
 *main - entry point
@@ -9,7 +8,7 @@
 */
 int main(void)
 {
-write(STDERR_FILENO, "and that piece of art is useful\
-\" - Dora Korpar, 2015-10-19\n",59);
+char *s = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+write(2, s, 59);
 return (1);
 }

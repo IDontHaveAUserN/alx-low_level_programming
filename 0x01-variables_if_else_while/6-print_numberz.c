@@ -6,8 +6,8 @@
 */
 int main(void)
 {
-int a = 38;
-while (a < 48)
+int a = 48;
+while (a < 58)
 {
 putchar(a);
 a++;
